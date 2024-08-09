@@ -13,6 +13,7 @@ public class MathCalculator {
         return diff(first, second)
                 + div(first, second);
     }
+
         public static double divAndMultiply(double first, double second) {
             return sum(first, second) + diff(first, second) + multiply(first, second)
                     + div(first, second);
