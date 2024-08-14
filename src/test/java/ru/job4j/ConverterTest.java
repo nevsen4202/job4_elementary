@@ -10,8 +10,8 @@ class ConverterTest {
         float input = 180;
         float expected = 2;
         float output = (float)Converter.rubleToEuro (input);
-        float value = 0.0001f;
-        assertThat(output).isEqualTo(expected, withPrecision(value));
+        float valu = 0.0001f;
+        assertThat(output).isEqualTo(expected, withPrecision(valu));
     }
 
     @Test
@@ -19,8 +19,8 @@ class ConverterTest {
         float input = 200;
         float expected = 2.2222F;
         float output = (float)Converter.rubleToEuro (input);
-        float value = 0.0001f;
-        assertThat(output).isEqualTo(expected, withPrecision(value));
+        float valu = 0.0001f;
+        assertThat(output).isEqualTo(expected, withPrecision(valu));
 
     }
 
@@ -29,8 +29,8 @@ class ConverterTest {
         float input = 210;
         float expected = 3;
         float output = (float)Converter.rubleToDollar(input);
-        float value = 0.0001f;
-        assertThat(output).isEqualTo(expected, withPrecision(value));
+        float valu = 0.0001f;
+        assertThat(output).isEqualTo(expected, withPrecision(valu));
 
     }
 }
