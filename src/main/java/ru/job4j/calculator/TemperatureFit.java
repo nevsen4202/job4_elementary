@@ -2,17 +2,15 @@ package ru.job4j.calculator;
 
 public class TemperatureFit {
     public static double idealTemperatureForFruits(int temperature) {
-        // Ideal temperature for storing fruits in Celsius
         return temperature - 2.0;
     }
 
     public static double idealTemperatureForMeat(int temperature) {
-        // Ideal temperature for storing meat in Celsius
         return temperature - 5.0;
     }
 
     public static void main(String[] args) {
-        int roomtemperature = 10; // Example room temperature
+        int roomtemperature = 10;
         double fruitsTemp = TemperatureFit.idealTemperatureForFruits(roomtemperature);
         double meatTemp = TemperatureFit.idealTemperatureForMeat(roomtemperature);
         System.out.println("Ideal temperature for fruits is " + fruitsTemp + "°C");
