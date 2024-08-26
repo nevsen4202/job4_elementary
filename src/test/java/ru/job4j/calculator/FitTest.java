@@ -1,11 +1,10 @@
 package ru.job4j.calculator;
 
-
 import org.junit.jupiter.api.Test;
+
 import static org.assertj.core.api.Assertions.*;
 
 class FitTest {
-
     @Test
     void whenMan180Then92() {
         short input = 180;
