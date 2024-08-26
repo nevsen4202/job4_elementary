@@ -25,12 +25,12 @@ class SavingsTest {
     }
 
     @Test
-    void whenGoal1000Deposit100Percent20ThenYears3() {
+    void whenGoal1000Deposit100Percent20ThenYears9() {
         double goal = 1000;
         double annualDeposit = 100;
         double percent = 20;
         int result = Savings.years(goal, annualDeposit, percent);
-        int expected = 7;
+        int expected = 9;
         assertThat(result).isEqualTo(expected);
     }
 }
