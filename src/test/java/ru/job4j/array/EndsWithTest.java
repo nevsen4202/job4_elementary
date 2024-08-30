@@ -1,6 +1,7 @@
 package ru.job4j.array;
 
 import org.junit.jupiter.api.Test;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class EndsWithTest {
@@ -19,6 +20,7 @@ public class EndsWithTest {
         boolean result = EndsWith.endsWith(word, postfix);
         assertThat(result).isFalse();
     }
+
     @Test
     public void whenNotEndWithPostixThenFalse() {
         char[] word = {'Я'};
