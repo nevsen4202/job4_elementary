@@ -9,6 +9,16 @@ public class FindLoop {
         }
         return -1;
     }
+
+    public static int indexInRange(int[] data, int element, int start, int finish) {
+        for (int index = start; index <= finish; index++) {
+            if (data[index] == element) {
+                return index;
+
+            }
+        }
+        return -1;
+    }
 }
 
 
