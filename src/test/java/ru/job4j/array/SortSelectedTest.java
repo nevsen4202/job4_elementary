@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class SortSelectedTest {
+
     @Test
     public void whenSort() {
         int[] data = new int[] {3, 4, 1, 2, 5};
@@ -12,6 +13,7 @@ public class SortSelectedTest {
         int[] expected = new int[] {1, 2, 3, 4, 5};
         assertThat(result).containsExactly(expected);
     }
+
     @Test
     public void afterSorting() {
         int[] data = new int[] {3, 2, 1};
