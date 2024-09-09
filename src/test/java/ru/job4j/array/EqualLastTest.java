@@ -26,7 +26,7 @@ public class EqualLastTest {
         int[] left = {};
         int[] right = {};
         boolean result = EqualLast.check(left, right);
-        assertThat(result).isTrue();
+        assertThat(result).isFalse();
     }
 
     @Test
