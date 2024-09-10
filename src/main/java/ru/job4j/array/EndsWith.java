@@ -5,9 +5,9 @@ public class EndsWith {
         if (postfix.length > word.length) {
             return false;
         }
-        int offset = word.length - postfix.length;
+        int n = word.length - postfix.length;
         for (int i = 0; i < postfix.length; i++) {
-            if (word[offset + i] != postfix[i]) {
+            if (word[n + i] != postfix[i]) {
                 return false;
             }
         }
