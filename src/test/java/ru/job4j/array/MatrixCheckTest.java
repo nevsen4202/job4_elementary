@@ -18,6 +18,19 @@ public class MatrixCheckTest {
     }
 
     @Test
+    public void whenHeterogeneous() {
+        char[][] input = {
+                {' ', ' ', ' '},
+                {'X', ' ', 'X'},
+                {' ', ' ', ' '},
+        };
+        int row = 0;
+        boolean result = MatrixCheck.monoHorizontal(input, row);
+        assertThat(result).isFalse();
+    }
+
+
+    @Test
     public void whenHasMonoVertical() {
         char[][] input = {
                 {' ', ' ', 'X'},
