@@ -97,9 +97,9 @@ public class MatrixCheckTest {
                 {' ', ' ', 'X', ' ', ' '},
                 {' ', ' ', 'X', ' ', ' '},
                 {' ', ' ', 'X', ' ', ' '},
-        };
-        boolean result = MatrixCheck.isWin(input);
-        assertThat(result).isTrue();
+            };
+            boolean result = MatrixCheck.isWin(input);
+            assertThat(result).isTrue();
         }
 
         @Test
