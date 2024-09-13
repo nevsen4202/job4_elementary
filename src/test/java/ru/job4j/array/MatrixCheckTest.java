@@ -88,6 +88,7 @@ public class MatrixCheckTest {
             char[] expected = {'X', 'Y', 'Z'};
             assertThat(result).containsExactly(expected);
         }
+
     @Test
     public void whenDataMonoByTrueThenTrue() {
         char[][] input = {
