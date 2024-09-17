@@ -23,7 +23,7 @@ class CheckPrimeNumberTest {
     void when1ThenFalse() {
         int number = 1;
         boolean result = CheckPrimeNumber.check(number);
-        assertThat(result).isTrue();
+        assertThat(result).isFalse();
     }
 
     @Test
